@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather-App</title>
+</head>
+
+<body>
+    <div class="weather-container">
+        <form id="WeatherSearch">
+            <label for="search">Weather-App</label>
+            <input id="citysearch" type="text" placeholder="Search...">
+            <button type="submit">Suchen</button>
+        </form>
+        <h2 id="city">City Name</h2>
+        <div class="temp-icon-container">
+            <span id="temperature">25°C</span>
+            <img id="weatherIcon" alt="Weather icon" />
+        </div>
+        <figcaption id="condition"></figcaption>
+        <p id="tempinfo"></p>
+        <p id="dateDisplay"></p>
+        <div id="forecast-container">
+        </div>
+    </div>
+    <h2 id="name">Created by: Rui Pereira</h2>
+    <script src="index.js"></script>
+</body>
+
+</html>
