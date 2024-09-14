@@ -1,6 +1,6 @@
 // Created by: Rui Pereira
 
-const APIKey = '9c9d3adc52c7423cbc9185001241409';
+const APIKey = '';
 const WeatherSearch = document.getElementById('WeatherSearch');
 const City = document.getElementById('city');
 const Temperature = document.getElementById('temperature');
